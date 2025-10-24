@@ -1,0 +1,9 @@
+#first-heading {
+    color: red !important; /* Sử dụng !important để ưu tiên quy tắc này */
+    font-size: 100px;
+}
+
+.second {
+    color: blue;
+    font-size: 50px;
+}
