@@ -1,9 +1,18 @@
+/* padding: là khoảng cách bên trong phần tử
+border: là viền của phần tử
+margin: là khoảng cách bên ngoài phần tử (không làm thay đổi kích thước phần tử)
+*/
+
 #first-heading {
     color: red !important; /* Sử dụng !important để ưu tiên quy tắc này */
     font-size: 100px;
 }
 
 .second {
-    color: blue;
+    color: var(--main-color);
     font-size: 50px;
+}
+
+:root {
+    --main-color: green;
 }
